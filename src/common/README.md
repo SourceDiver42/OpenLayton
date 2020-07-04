@@ -1,0 +1,1 @@
+This directory contains code which is universal for all the games or appear to be part of common stuff in the games (like menus, textbox behaviour, ...)
