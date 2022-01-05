@@ -62,7 +62,7 @@ for line in rom.filenames._strList():
 print("Extracting into: " + gameAssetsDir)
 # If our gameAssetsDir already exists, skip creation and cd into the directory
 if not os.path.exists(gameAssetsDir):
-    os.mkdir(gameAssetsDir)
+    os.makedirs(gameAssetsDir, exist_ok=True)
 os.chdir(gameAssetsDir)
 
 for path in paths:
